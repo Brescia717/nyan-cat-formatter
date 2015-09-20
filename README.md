@@ -1,3 +1,24 @@
+DISCLAIMER!!!
+This is a forked repository from Matt Sears. All of the credit for writing the scripts goes to him. All I've done in this repository is modified the data/nyan-cat.mp3 file to be a Legend of Zelda - Overworld music track.
+
+In order to run this correctly, you will need to specify in your Gemfile:
+```
+    gem 'nyan-cat-formatter', :git => 'git@github.com:Brescia717/nyan-cat-formatter.git'
+```
+The nyan cat images are still displayed in your terminal. Again, only the music is changed.
+
+Also be sure to run your rspec tests like so:
+```
+    bundle exec rspec spec
+```
+
+Make sure you don't already have Matt Sears' nyan-cat-formatter gem installed, otherwise it won't work.
+
+Hope you enjoy!
+
+If you're up to it, you could create a Zelda themed animation for the terminal while your tests are running.
+
+
 Nyan Cat RSpec Formatter [![Build Status](https://secure.travis-ci.org/mattsears/nyan-cat-formatter.png)](http://travis-ci.org/mattsears/nyan-cat-formatter)
 ========
 
@@ -25,18 +46,12 @@ To use Nyan Cat with a project that uses Bundler (Rails or Sinatra f.e.) you nee
 
 ```ruby
 group :test do
-  gem "nyan-cat-formatter"
+  gem 'nyan-cat-formatter', :git => 'git@github.com:Brescia717/nyan-cat-formatter.git'
 end
 ```
 
 And then run `bundle install`.
 
-Installing it
--------------
-
-```
-$ gem install nyan-cat-formatter
-```
 
 If you want to use Nyan Cat as your default formatter, simply put the options in your .rspec file:
 
