@@ -60,7 +60,7 @@ If you want to use Nyan Cat as your default formatter, simply put the options in
 --format NyanCatFormatter
 ```
 
-Playing the Nyan Cat song
+Playing the LoZ - Overworld song!
 -------------------------
 
 You can then enjoy playback in two ways:
@@ -73,7 +73,7 @@ Use the following command to run your specs:
 $ rspec spec -f NyanCatMusicFormatter
 ```
 
-And enjoy the site of Nyan Cat running across your terminal to the Nyan Cat song!
+And enjoy the site of Nyan Cat running across your terminal to the LoZ - Overworld song!
 
 **2. Play the song by default when you run your specs:**
 
@@ -84,7 +84,7 @@ Make sure your .rspec file in your application's root directory contains the fol
 --format NyanCatMusicFormatter
 ```
 
-Then run `rspec spec` and enjoy Nyan Cat formatted text output accompanied by the Nyan Cat song by default!
+Then run `rspec spec` and enjoy Nyan Cat formatted text output accompanied by the LoZ - Overworld song by default!
 
 **This currently only works on Mac OS X or on Linux (if you have mpg321 or mpg123 installed).**
 
