@@ -1,4 +1,5 @@
-DISCLAIMER!!!
+###Disclaimer!!!
+
 This is a forked repository from Matt Sears. All of the credit for writing the scripts goes to him. All I've done in this repository is modified the data/nyan-cat.mp3 file to be a Legend of Zelda - Overworld music track.
 
 In order to run this correctly, you will need to specify in your Gemfile:
